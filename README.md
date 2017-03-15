@@ -11,8 +11,8 @@ Commands:
 
 To run jupyther, type following command on cmd prompt(you should be in the same directory where notebooks are stored) 
 
->> jupyter/ipython3 notebook
+>> ipython3 notebook
 
 To run tensorboard, type following command on cmd prompt 
 
->> tensorboard --logdir=<log-directory>
+>> tensorboard --logdir="log-directory"
