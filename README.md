@@ -7,6 +7,8 @@ Orig 2_mnist.ipynb file from: https://github.com/sherrym/tf-tutorial/blob/master
 
 Orig ftlearn file from: https://github.com/tflearn/tflearn/blob/master/examples/images/convnet_mnist.py
 
+Orig Keras example : https://elitedatascience.com/keras-tutorial-deep-learning-in-python#step-5
+
 Commands:
 
 To run jupyther, type following command on cmd prompt(you should be in the same directory where notebooks are stored) 
