@@ -2,7 +2,8 @@
 from keras import backend as K
 K.set_image_dim_ordering('th')
 
-
+from numpy import array
+import matplotlib.pyplot as plt
 
 import numpy as np
 np.random.seed(123)  # for reproducibility
@@ -52,3 +53,8 @@ model.fit(X_train, Y_train,
  
 # 10. Evaluate model on test data
 score = model.evaluate(X_test, Y_test, verbose=0)
+
+# predict from image
+model.predict(X_test[0].reshape(1,1,28,28))[0].argmax(axis=0)
+imgplot = plt.imshow(array(X_test[0]).reshape(28,28))
+plt.show()
